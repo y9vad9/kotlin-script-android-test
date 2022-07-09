@@ -4,6 +4,11 @@ pluginManagement {
         mavenCentral()
         google()
     }
+
+    plugins {
+        id("com.android.application") version "7.0.1"
+        id("org.jetbrains.kotlin.android") version "1.7.0"
+    }
 }
 
 dependencyResolutionManagement {
@@ -16,7 +21,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "kotlin-project-template"
+rootProject.name = "kotlin-script-android-test"
 
 includeBuild("build-logic/dependencies")
 includeBuild("build-logic/configuration")

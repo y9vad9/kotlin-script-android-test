@@ -35,7 +35,9 @@ object Deps {
     private const val scriptKtVer = "0.0.5"
 
     object Libs {
-
+        object Y9Vad9 {
+            const val ScriptKt = "com.y9vad9.scriptkt:scriptkt:0.0.7"
+        }
         object KotlinGang {
             object KDS {
                 const val FileDataStorage = "fun.kotlingang.kds:json-files:$kdsVer"
